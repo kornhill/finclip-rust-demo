@@ -1,0 +1,7 @@
+{
+  "desc": "关于本文件的更多信息，请参考文档 https://finclip.com/mop/document/develop/developer/fide-guide.html",
+  "rules": [{
+  "action": "allow",
+  "page": "*"
+  }]
+}

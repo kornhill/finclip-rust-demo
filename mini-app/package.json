@@ -1,0 +1,13 @@
+{
+  "name": "finclip-rust",
+  "version": "0.0.1",
+  "description": "demo of calling rust from finclip miniapps",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "C. Liang",
+  "license": "MIT",
+  "dependencies": {
+  }
+}

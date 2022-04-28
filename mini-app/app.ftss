@@ -1,0 +1,9 @@
+/**app.ftss**/
+.container {
+  align-items: left;
+  margin: 2.5rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+} 

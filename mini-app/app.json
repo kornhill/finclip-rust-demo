@@ -1,0 +1,14 @@
+{
+  "pages": [
+    "pages/generate/generate",
+    "pages/fetch/fetch"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Rust Call",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

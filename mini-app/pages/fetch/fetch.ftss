@@ -1,0 +1,13 @@
+.wallet {
+    width: 80%;
+    word-wrap: break-word;
+    word-break: break-all;
+    white-space: pre-line;
+    margin: 2.5rpx 0.5rpx 2.5rpx 0.5rpx;
+    padding: 20px;
+}
+
+.wallet-area {
+    padding: 20px;
+    align: left;
+}

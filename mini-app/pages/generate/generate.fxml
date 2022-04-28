@@ -1,0 +1,20 @@
+<view class="container">
+    <view class="container">
+        <view class="wallet-area">
+            <text>Public Address:</text>
+            <text class="wallet">{{wallet.public_address}}</text>
+        </view>
+        <view class="wallet-area">
+            <text>Public Key:</text>
+            <text class="wallet">{{wallet.public_key}}</text>
+        </view>
+        <view class="wallet">
+            <text>Private Key:</text>
+            <text class="wallet">{{wallet.private_key}}</text>
+        </view>
+    </view>   
+    <view class="container"> 
+        <button type="primary" bindtap="save_wallet">Save the Wallet</button>
+    </view>
+</view>  
+ 
