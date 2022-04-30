@@ -3,6 +3,7 @@ Page({
   data: {
     wallet: {
       public_address: "",
+      public_address_qrcode: "",
       public_key: "",
       private_key: ""
     }
@@ -10,9 +11,13 @@ Page({
 
   onShow: function (options) {
     const wallet = ft.generate_wallet();
-    console.log(wallet);
-    this.setData({
+    const qrcode_svg = "data:image/svg+xml;base64," + wallet.public_address_qrcode;
+    console.log("qrcode");
+    console.log(qrcode_svg);
+
+    this.setData({ 
        ['wallet.public_address']: wallet.public_address,
+       ['wallet.public_address_qrcode']: qrcode_svg,
        ['wallet.public_key']: wallet.public_key,
        ['wallet.private_key']: wallet.private_key
     })
@@ -40,3 +45,5 @@ Page({
   }
 
 })
+
+

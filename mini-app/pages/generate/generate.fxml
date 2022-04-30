@@ -4,6 +4,8 @@
             <text>Public Address:</text>
             <text class="wallet">{{wallet.public_address}}</text>
         </view>
+        <view style="width:148px;height:148px;background:url('{{ wallet.public_address_qrcode }}') no-repeat center">
+        </view> 
         <view class="wallet-area">
             <text>Public Key:</text>
             <text class="wallet">{{wallet.public_key}}</text>
@@ -16,5 +18,5 @@
     <view class="container"> 
         <button type="primary" bindtap="save_wallet">Save the Wallet</button>
     </view>
-</view>  
+</view>   
  

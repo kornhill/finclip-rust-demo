@@ -48,10 +48,14 @@ static FinClipExt *_sharedMySingleton = nil;
     char *pub_key = cwallet.public_key;
     char *sec_key = cwallet.private_key;
     NSLog(@"OC: generate_wallet addr ====> %@", [NSString stringWithUTF8String:addr]);
+ 
+    const char *qrcode = generate_qrcode_svg(cwallet.public_addr);
+    NSLog(@"QR: %s", qrcode);
     
     NSDictionary *resultDict = @{
         @"errMsg":@"generate_wallet:ok",  //in real case, check to return ok or fail
         @"public_address":[NSString stringWithUTF8String:addr],
+        @"public_address_qrcode":[NSString stringWithUTF8String:qrcode],
         @"public_key":[NSString stringWithUTF8String:pub_key],
         @"private_key":[NSString stringWithUTF8String:sec_key]
     };
@@ -98,4 +102,5 @@ static FinClipExt *_sharedMySingleton = nil;
     };
     return resultDict;
 }
+
 @end

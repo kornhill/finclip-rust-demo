@@ -7,106 +7,106 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9F0C0A9F28055FDE00454076 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F0C0A9E28055FDE00454076 /* AppDelegate.m */; };
-		9F0C0AA228055FDE00454076 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F0C0AA128055FDE00454076 /* SceneDelegate.m */; };
-		9F0C0AA528055FDE00454076 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F0C0AA428055FDE00454076 /* ViewController.m */; };
-		9F0C0AA828055FDE00454076 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F0C0AA628055FDE00454076 /* Main.storyboard */; };
-		9F0C0AAA28055FE300454076 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F0C0AA928055FE300454076 /* Assets.xcassets */; };
-		9F0C0AAD28055FE300454076 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F0C0AAB28055FE300454076 /* LaunchScreen.storyboard */; };
-		9F0C0AB028055FE300454076 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F0C0AAF28055FE300454076 /* main.m */; };
-		9F0C0AB72805602F00454076 /* FinApplet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F0C0AB62805602F00454076 /* FinApplet.framework */; };
-		9F0C0AB92805613E00454076 /* FinApplet.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9F0C0AB62805602F00454076 /* FinApplet.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		9F9761492817A4A80095AC2A /* librustywallet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F9761482817A4A70095AC2A /* librustywallet.a */; };
-		9F97614C28182F0C0095AC2A /* FinClipExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F97614B28182F0B0095AC2A /* FinClipExt.m */; };
+		9F936E3E281D35B900EAAD11 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F936E3D281D35B900EAAD11 /* AppDelegate.m */; };
+		9F936E41281D35B900EAAD11 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F936E40281D35B900EAAD11 /* SceneDelegate.m */; };
+		9F936E44281D35B900EAAD11 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F936E43281D35B900EAAD11 /* ViewController.m */; };
+		9F936E47281D35B900EAAD11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F936E45281D35B900EAAD11 /* Main.storyboard */; };
+		9F936E49281D35C100EAAD11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F936E48281D35C100EAAD11 /* Assets.xcassets */; };
+		9F936E4C281D35C100EAAD11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F936E4A281D35C100EAAD11 /* LaunchScreen.storyboard */; };
+		9F936E4F281D35C100EAAD11 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F936E4E281D35C100EAAD11 /* main.m */; };
+		9F936E57281D366300EAAD11 /* FinClipExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F936E56281D366300EAAD11 /* FinClipExt.m */; };
+		9F936E59281D36B600EAAD11 /* FinApplet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F936E58281D36B500EAAD11 /* FinApplet.framework */; };
+		9F936E5B281D370600EAAD11 /* FinApplet.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9F936E58281D36B500EAAD11 /* FinApplet.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9F936E5E281D3EBC00EAAD11 /* librustywallet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F936E5D281D3EBC00EAAD11 /* librustywallet.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		9F0C0AB82805612F00454076 /* CopyFiles */ = {
+		9F936E5A281D36F900EAAD11 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				9F0C0AB92805613E00454076 /* FinApplet.framework in CopyFiles */,
+				9F936E5B281D370600EAAD11 /* FinApplet.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		9F0C0A9A28055FDE00454076 /* clip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = clip.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9F0C0A9D28055FDE00454076 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		9F0C0A9E28055FDE00454076 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9F0C0AA028055FDE00454076 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		9F0C0AA128055FDE00454076 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		9F0C0AA328055FDE00454076 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		9F0C0AA428055FDE00454076 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		9F0C0AA728055FDE00454076 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9F0C0AA928055FE300454076 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9F0C0AAC28055FE300454076 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		9F0C0AAE28055FE300454076 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9F0C0AAF28055FE300454076 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		9F0C0AB62805602F00454076 /* FinApplet.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FinApplet.framework; sourceTree = "<group>"; };
-		9F9761482817A4A70095AC2A /* librustywallet.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = librustywallet.a; path = libs/librustywallet.a; sourceTree = SOURCE_ROOT; };
-		9F97614A28182E260095AC2A /* FinClipExt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FinClipExt.h; sourceTree = "<group>"; };
-		9F97614B28182F0B0095AC2A /* FinClipExt.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FinClipExt.m; sourceTree = "<group>"; };
+		9F936E39281D35B900EAAD11 /* clip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = clip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F936E3C281D35B900EAAD11 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9F936E3D281D35B900EAAD11 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9F936E3F281D35B900EAAD11 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		9F936E40281D35B900EAAD11 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		9F936E42281D35B900EAAD11 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9F936E43281D35B900EAAD11 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9F936E46281D35B900EAAD11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9F936E48281D35C100EAAD11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9F936E4B281D35C100EAAD11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9F936E4D281D35C100EAAD11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F936E4E281D35C100EAAD11 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9F936E55281D366200EAAD11 /* FinClipExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FinClipExt.h; sourceTree = "<group>"; };
+		9F936E56281D366300EAAD11 /* FinClipExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FinClipExt.m; sourceTree = "<group>"; };
+		9F936E58281D36B500EAAD11 /* FinApplet.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FinApplet.framework; sourceTree = "<group>"; };
+		9F936E5D281D3EBC00EAAD11 /* librustywallet.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = librustywallet.a; path = libs/librustywallet.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9F0C0A9728055FDE00454076 /* Frameworks */ = {
+		9F936E36281D35B900EAAD11 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F9761492817A4A80095AC2A /* librustywallet.a in Frameworks */,
-				9F0C0AB72805602F00454076 /* FinApplet.framework in Frameworks */,
+				9F936E5E281D3EBC00EAAD11 /* librustywallet.a in Frameworks */,
+				9F936E59281D36B600EAAD11 /* FinApplet.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9F0C0A9128055FDE00454076 = {
+		9F936E30281D35B800EAAD11 = {
 			isa = PBXGroup;
 			children = (
-				9F0C0A9C28055FDE00454076 /* clip */,
-				9F0C0A9B28055FDE00454076 /* Products */,
-				9F0C0ABA28056AE000454076 /* Frameworks */,
+				9F936E3B281D35B900EAAD11 /* clip */,
+				9F936E3A281D35B900EAAD11 /* Products */,
+				9F936E5C281D3EBC00EAAD11 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		9F0C0A9B28055FDE00454076 /* Products */ = {
+		9F936E3A281D35B900EAAD11 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9F0C0A9A28055FDE00454076 /* clip.app */,
+				9F936E39281D35B900EAAD11 /* clip.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9F0C0A9C28055FDE00454076 /* clip */ = {
+		9F936E3B281D35B900EAAD11 /* clip */ = {
 			isa = PBXGroup;
 			children = (
-				9F9761482817A4A70095AC2A /* librustywallet.a */,
-				9F0C0AB62805602F00454076 /* FinApplet.framework */,
-				9F0C0A9D28055FDE00454076 /* AppDelegate.h */,
-				9F0C0A9E28055FDE00454076 /* AppDelegate.m */,
-				9F0C0AA028055FDE00454076 /* SceneDelegate.h */,
-				9F0C0AA128055FDE00454076 /* SceneDelegate.m */,
-				9F0C0AA328055FDE00454076 /* ViewController.h */,
-				9F0C0AA428055FDE00454076 /* ViewController.m */,
-				9F0C0AA628055FDE00454076 /* Main.storyboard */,
-				9F0C0AA928055FE300454076 /* Assets.xcassets */,
-				9F0C0AAB28055FE300454076 /* LaunchScreen.storyboard */,
-				9F0C0AAE28055FE300454076 /* Info.plist */,
-				9F0C0AAF28055FE300454076 /* main.m */,
-				9F97614A28182E260095AC2A /* FinClipExt.h */,
-				9F97614B28182F0B0095AC2A /* FinClipExt.m */,
+				9F936E58281D36B500EAAD11 /* FinApplet.framework */,
+				9F936E55281D366200EAAD11 /* FinClipExt.h */,
+				9F936E56281D366300EAAD11 /* FinClipExt.m */,
+				9F936E3C281D35B900EAAD11 /* AppDelegate.h */,
+				9F936E3D281D35B900EAAD11 /* AppDelegate.m */,
+				9F936E3F281D35B900EAAD11 /* SceneDelegate.h */,
+				9F936E40281D35B900EAAD11 /* SceneDelegate.m */,
+				9F936E42281D35B900EAAD11 /* ViewController.h */,
+				9F936E43281D35B900EAAD11 /* ViewController.m */,
+				9F936E45281D35B900EAAD11 /* Main.storyboard */,
+				9F936E48281D35C100EAAD11 /* Assets.xcassets */,
+				9F936E4A281D35C100EAAD11 /* LaunchScreen.storyboard */,
+				9F936E4D281D35C100EAAD11 /* Info.plist */,
+				9F936E4E281D35C100EAAD11 /* main.m */,
 			);
 			path = clip;
 			sourceTree = "<group>";
 		};
-		9F0C0ABA28056AE000454076 /* Frameworks */ = {
+		9F936E5C281D3EBC00EAAD11 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9F936E5D281D3EBC00EAAD11 /* librustywallet.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -114,15 +114,14 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9F0C0A9928055FDE00454076 /* clip */ = {
+		9F936E38281D35B900EAAD11 /* clip */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9F0C0AB328055FE300454076 /* Build configuration list for PBXNativeTarget "clip" */;
+			buildConfigurationList = 9F936E52281D35C100EAAD11 /* Build configuration list for PBXNativeTarget "clip" */;
 			buildPhases = (
-				9F0C0ABD2805740E00454076 /* ShellScript */,
-				9F0C0A9628055FDE00454076 /* Sources */,
-				9F0C0A9728055FDE00454076 /* Frameworks */,
-				9F0C0A9828055FDE00454076 /* Resources */,
-				9F0C0AB82805612F00454076 /* CopyFiles */,
+				9F936E35281D35B900EAAD11 /* Sources */,
+				9F936E36281D35B900EAAD11 /* Frameworks */,
+				9F936E37281D35B900EAAD11 /* Resources */,
+				9F936E5A281D36F900EAAD11 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -130,24 +129,24 @@
 			);
 			name = clip;
 			productName = clip;
-			productReference = 9F0C0A9A28055FDE00454076 /* clip.app */;
+			productReference = 9F936E39281D35B900EAAD11 /* clip.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		9F0C0A9228055FDE00454076 /* Project object */ = {
+		9F936E31281D35B900EAAD11 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
-					9F0C0A9928055FDE00454076 = {
+					9F936E38281D35B900EAAD11 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
 				};
 			};
-			buildConfigurationList = 9F0C0A9528055FDE00454076 /* Build configuration list for PBXProject "clip" */;
+			buildConfigurationList = 9F936E34281D35B900EAAD11 /* Build configuration list for PBXProject "clip" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -155,77 +154,57 @@
 				en,
 				Base,
 			);
-			mainGroup = 9F0C0A9128055FDE00454076;
-			productRefGroup = 9F0C0A9B28055FDE00454076 /* Products */;
+			mainGroup = 9F936E30281D35B800EAAD11;
+			productRefGroup = 9F936E3A281D35B900EAAD11 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9F0C0A9928055FDE00454076 /* clip */,
+				9F936E38281D35B900EAAD11 /* clip */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		9F0C0A9828055FDE00454076 /* Resources */ = {
+		9F936E37281D35B900EAAD11 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F0C0AAD28055FE300454076 /* LaunchScreen.storyboard in Resources */,
-				9F0C0AAA28055FE300454076 /* Assets.xcassets in Resources */,
-				9F0C0AA828055FDE00454076 /* Main.storyboard in Resources */,
+				9F936E4C281D35C100EAAD11 /* LaunchScreen.storyboard in Resources */,
+				9F936E49281D35C100EAAD11 /* Assets.xcassets in Resources */,
+				9F936E47281D35B900EAAD11 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		9F0C0ABD2805740E00454076 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/bash;
-			shellScript = "set -e\n# Location of rust project\nRUST_PROJ=\"../rust-wallet\"\n\n# Provide access to Rust utilities\nPATH=\"$PATH:$HOME/.cargo/bin\"\n\ncd \"$RUST_PROJ\"\n\n# Generate C bindings\ncbindgen src/lib.rs -l c > target/rustylib.h\ncargo lipo --release\n";
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		9F0C0A9628055FDE00454076 /* Sources */ = {
+		9F936E35281D35B900EAAD11 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F97614C28182F0C0095AC2A /* FinClipExt.m in Sources */,
-				9F0C0AA528055FDE00454076 /* ViewController.m in Sources */,
-				9F0C0A9F28055FDE00454076 /* AppDelegate.m in Sources */,
-				9F0C0AB028055FE300454076 /* main.m in Sources */,
-				9F0C0AA228055FDE00454076 /* SceneDelegate.m in Sources */,
+				9F936E57281D366300EAAD11 /* FinClipExt.m in Sources */,
+				9F936E44281D35B900EAAD11 /* ViewController.m in Sources */,
+				9F936E3E281D35B900EAAD11 /* AppDelegate.m in Sources */,
+				9F936E4F281D35C100EAAD11 /* main.m in Sources */,
+				9F936E41281D35B900EAAD11 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		9F0C0AA628055FDE00454076 /* Main.storyboard */ = {
+		9F936E45281D35B900EAAD11 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				9F0C0AA728055FDE00454076 /* Base */,
+				9F936E46281D35B900EAAD11 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		9F0C0AAB28055FE300454076 /* LaunchScreen.storyboard */ = {
+		9F936E4A281D35C100EAAD11 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				9F0C0AAC28055FE300454076 /* Base */,
+				9F936E4B281D35C100EAAD11 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -233,7 +212,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		9F0C0AB128055FE300454076 /* Debug */ = {
+		9F936E50281D35C100EAAD11 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -292,7 +271,7 @@
 			};
 			name = Debug;
 		};
-		9F0C0AB228055FE300454076 /* Release */ = {
+		9F936E51281D35C100EAAD11 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -345,7 +324,7 @@
 			};
 			name = Release;
 		};
-		9F0C0AB428055FE300454076 /* Debug */ = {
+		9F936E53281D35C100EAAD11 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -358,27 +337,21 @@
 					"$(PROJECT_DIR)/clip",
 				);
 				GENERATE_INFOPLIST_FILE = YES;
-				HEADER_SEARCH_PATHS = (
-					"$(PROJECT_DIR)/include",
-					"$(PROJECT_DIR)/../rust/target",
-				);
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/include";
+				"HEADER_SEARCH_PATHS[arch=*]" = "$(PROJECT_DIR)/include";
 				INFOPLIST_FILE = clip/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = clip;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				LIBRARY_SEARCH_PATHS = (
-					"$(PROJECT_DIR)/../rust/target/universal/release",
-					"$(inherited)",
-					"$(PROJECT_DIR)/libs",
-				);
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/libs";
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.finogeeks.rustful.clip;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -388,7 +361,7 @@
 			};
 			name = Debug;
 		};
-		9F0C0AB528055FE300454076 /* Release */ = {
+		9F936E54281D35C100EAAD11 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -401,27 +374,21 @@
 					"$(PROJECT_DIR)/clip",
 				);
 				GENERATE_INFOPLIST_FILE = YES;
-				HEADER_SEARCH_PATHS = (
-					"$(PROJECT_DIR)/include",
-					"$(PROJECT_DIR)/../rust/target",
-				);
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/include";
+				"HEADER_SEARCH_PATHS[arch=*]" = "$(PROJECT_DIR)/include";
 				INFOPLIST_FILE = clip/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = clip;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				LIBRARY_SEARCH_PATHS = (
-					"$(PROJECT_DIR)/../rust/target/universal/release",
-					"$(inherited)",
-					"$(PROJECT_DIR)/libs",
-				);
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/libs";
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.finogeeks.rustful.clip;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -434,25 +401,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9F0C0A9528055FDE00454076 /* Build configuration list for PBXProject "clip" */ = {
+		9F936E34281D35B900EAAD11 /* Build configuration list for PBXProject "clip" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9F0C0AB128055FE300454076 /* Debug */,
-				9F0C0AB228055FE300454076 /* Release */,
+				9F936E50281D35C100EAAD11 /* Debug */,
+				9F936E51281D35C100EAAD11 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9F0C0AB328055FE300454076 /* Build configuration list for PBXNativeTarget "clip" */ = {
+		9F936E52281D35C100EAAD11 /* Build configuration list for PBXNativeTarget "clip" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9F0C0AB428055FE300454076 /* Debug */,
-				9F0C0AB528055FE300454076 /* Release */,
+				9F936E53281D35C100EAAD11 /* Debug */,
+				9F936E54281D35C100EAAD11 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 9F0C0A9228055FDE00454076 /* Project object */;
+	rootObject = 9F936E31281D35B900EAAD11 /* Project object */;
 }

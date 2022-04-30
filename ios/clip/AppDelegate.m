@@ -28,7 +28,8 @@
     [[FATClient sharedClient] registerSyncExtensionApi:@"release_wallet" target:[FinClipExt singleton]];
     [[FATClient sharedClient] registerSyncExtensionApi:@"save_wallet" target:[FinClipExt singleton]];
     [[FATClient sharedClient] registerSyncExtensionApi:@"fetch_wallet" target:[FinClipExt singleton]];
-    //[self generate_wallet];
+    [[FATClient sharedClient] registerSyncExtensionApi:@"generate_qrcode" target:[FinClipExt singleton]];
+    //[self generate_wallet]; 
     
     return YES;
 }

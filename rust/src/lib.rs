@@ -13,6 +13,8 @@ mod wallet;
 use wallet_impl::Wallet;
 
 use crate::wallet::*;
+use qrcodegen::*;
+use base64::{encode};
 
 #[cfg(target_os = "android")]
 mod android;
@@ -70,6 +72,20 @@ pub unsafe extern "C" fn fetch_cwallet() -> CWallet {
     };
 }
 
+#[no_mangle]
+pub unsafe extern "C" fn generate_qrcode_svg(input: *const c_char) -> *const c_char {
+    let s = CStr::from_ptr(input);
+    let sp = s.to_str().unwrap();
+
+    let qr = QrCode::encode_text(sp, QrCodeEcc::Medium).unwrap();
+    let svg = to_svg_string_base64(&qr, 4); 
+
+    let result = CString::new(svg).unwrap();
+    let c_result: *mut c_char = result.into_raw();
+
+    c_result
+}
+
 unsafe fn convert_to_cwallet(rwallet: Wallet) -> CWallet {
    // 转换Rust字符串数据为C的字符串并移交ownership
    let pubkey = CString::new(rwallet.public_key).unwrap();
@@ -109,4 +125,29 @@ unsafe fn convert_to_rwallet(cwallet: &CWallet) -> Wallet {
         public_key: ppk.to_string(),
         public_address: pa.to_string(),
     }
+}
+
+fn to_svg_string_base64(qr: &QrCode, border: i32) -> String {
+    assert!(border >= 0, "Border must be non-negative");
+    let mut result = String::new();
+    //result += "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n";
+    //result += "<!DOCTYPE svg PUBLIC \"-//W3C//DTD SVG 1.1//EN\" \"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd\">\n";
+    let dimension = qr.size().checked_add(border.checked_mul(2).unwrap()).unwrap();
+    result += &format!(
+            "<svg xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\" viewBox=\"0 0 {0} {0}\" stroke=\"none\">\n", dimension);
+    result += "\t<rect width=\"100%\" height=\"100%\" fill=\"#FFFFFF\"/>\n";
+    result += "\t<path d=\"";
+    for y in 0 .. qr.size() {
+            for x in 0 .. qr.size() {
+                    if qr.get_module(x, y) {
+                            if x != 0 || y != 0 {
+                                    result += " ";
+                            }
+                            result += &format!("M{},{}h1v1h-1z", x + border, y + border);
+                    }
+            }
+    }
+    result += "\" fill=\"#000000\"/>\n";
+    result += "</svg>\n";
+    encode(result)
 }

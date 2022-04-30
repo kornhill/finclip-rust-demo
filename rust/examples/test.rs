@@ -6,7 +6,13 @@
 
 use std::ffi::{CStr};
 //use rustylib::gen::{CWallet};
-use rustywallet::{CWallet, generate_cwallet, free_cwallet, save_wallet, fetch_cwallet};
+use rustywallet::{
+    CWallet, 
+    generate_cwallet, 
+    free_cwallet, 
+    save_wallet, 
+    fetch_cwallet, 
+    generate_qrcode_svg};
 
 fn main() {
 
@@ -32,6 +38,9 @@ unsafe fn print_wallet(wallet: &CWallet) {
     let a = CStr::from_ptr(wallet.public_addr);
     let pa = a.to_str().unwrap();
     println!("public address=> {}", pa);
+    let qrcode_pa = generate_qrcode_svg(wallet.public_addr);
+    let c_qrcode_pa = CStr::from_ptr(qrcode_pa);
+    println!("QR Code:\n {}", c_qrcode_pa.to_str().unwrap());
 
     let pk = CStr::from_ptr(wallet.public_key);
     let ppk = pk.to_str().unwrap();
@@ -40,4 +49,5 @@ unsafe fn print_wallet(wallet: &CWallet) {
     let sk = CStr::from_ptr(wallet.private_key);
     let psk = sk.to_str().unwrap();
     println!("private key=> {}", psk);
+
 }
