@@ -14,3 +14,4 @@
 - [《FinClip小程序+Rust：（二）环境搭建》](http://www.finclip.com/blog/finclip-rust-2)
 - [《FinClip小程序+Rust：（三）一个加密钱包》](http://www.finclip.com/blog/finclip-rust-3)
 - [《FinClip小程序+Rust：（四）端到端融合》](http://www.finclip.com/blog/finclip-rust-4)
+- [《FinClip小程序+Rust：（五）用内联SVG生成二维码》](https://www.finclip.com/blog/finclip-rust-5/)
